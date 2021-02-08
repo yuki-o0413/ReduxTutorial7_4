@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  cbhr-front-webpack:
+    build:
+      context: ./build
+    image: build
+    tty: true
+    container_name: cbhr-front-webpack
+    volumes:
+      - ./app/src:/app/src:ro
+      - ./html/js/app:/app/dist:z
+      - ./build/package.json:/app/package.json
+      - ./build/webpack.config.js:/app/webpack.config.js
+  cbhr-front-nginx:
+    image: nginx
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+    ports:
+      - 8080:80

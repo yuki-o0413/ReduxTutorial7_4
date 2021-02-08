@@ -1,0 +1,192 @@
+/* font-family: 'Nerko One', cursive; */
+h1 {
+  font-family: "Nerko One", cursive;
+}
+element.style {
+  --background-color-hex: #000000;
+  --text-color-hex: #dddddd;
+}
+body {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+  background-color: #fff;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#register {
+  margin-top: 3rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+}
+
+/* テーブルのCSS */
+.table th,
+.table td {
+  border: solid 1px;
+  padding: 1px 15px;
+}
+
+/*AsideのCSS*/
+._bl1ufs {
+  color: inherit !important;
+  display: inline-block !important;
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+  white-space: nowrap !important;
+}
+._1us6f63 {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center !important;
+  /* positionプロパティは、ボックスの配置方法（基準位置）が、相対位置か絶対位置かを指定する際に使用 */
+  position: relative !important;
+  background-color: #000000;
+  color: #dddddd;
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+
+/* Header位置関係 */
+._otdka {
+  position: relative;
+}
+._otdka .onImg {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+/*イメージ*/
+._17fy1ix {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  height: 80px !important;
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+}
+._dae4t6 {
+  /* position: absolute;
+  object-fit: cover;
+  vertical-align: bottom; */
+  height: 800px !important;
+  width: 100% !important;
+  /* コンテナのサイズに収める */
+  /* object-fit: contain; */
+  /* width: 100%; */
+  /* 縦横比を固定 */
+  /* object-fit: cover; */
+  /* 中央下を表示 */
+  /* object-position: 50% 100% */
+}
+/*header文字*/
+._1ea7qej {
+  font-size: 16px !important;
+  line-height: 20px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-weight: 400 !important;
+  padding: 10px 12px !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  text-align: center !important;
+  z-index: 0 !important;
+  color: #FFFFFF !important;
+}
+._1gwzhbum {
+  outline: none !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-weight: 400 !important;
+  padding: 10px 12px !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  text-align: center !important;
+  z-index: 0 !important;
+  color: #FFFFFF !important;
+}
+._1keztfl {
+  width: 100%;
+  margin: 0 auto !important;
+  max-width: 850px !important;
+}
+._17fy1ix {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  height: 80px !important;
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+}
+
+/*footer*/
+footer{
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+  background-color: #EEE;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+._tfslnm {
+  color: #222222 !important;
+  font-weight: bold;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+}
+._o06542u {
+  color: #222222 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+._1s94zl78 {
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+}
+._fyxf74 {
+  -webkit-box-direction: normal !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+  margin-left: -12px !important;
+  margin-right: -12px !important;
+}
+
+footer ul{
+  padding-left:0px;
+}
+footer ul li{
+  list-style-type: none;
+  margin-top: 10px;
+}
+/* ._dae4t6{
+  flex: 1
+} */
